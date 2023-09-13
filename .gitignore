@@ -1,0 +1,9 @@
+# Ignore node modules folder
+/node_modules/
+
+# Ignore threejs folder
+/threejsfundamentals-gh-pages/
+
+
+# Ignore json files
+*.json
