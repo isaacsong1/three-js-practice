@@ -6,10 +6,19 @@
 		<link rel='stylesheet' href='main.css'>
 	</head>
 	<body>
-		<canvas id="c"></canvas>
+		<div class="header">
+			<canvas id="c"></canvas>
+			<div class="noise"></div>
+			<div class="text_wrapper">
+				<div class="text_inner">
+					<div class="word">HELLO</div>	
+				</div>
+			</div>
+		</div>
 		<script  type="importmap">{
 			"imports": {
-				"three": "https://threejs.org/build/three.module.js"
+				"three": "https://threejs.org/build/three.module.js",
+				"three/addons/": "https://threejs.org/examples/jsm/"
 			}
 		}</script>
 		<script type="module" src="./main.js"></script>
