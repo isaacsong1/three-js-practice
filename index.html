@@ -3,20 +3,15 @@
 	<head lang="en">
 		<meta charset="utf-8">
 		<title>My first three.js app</title>
-		<style>
-			body { margin: 0; }
-		</style>
+		<link rel='stylesheet' href='main.css'>
 	</head>
 	<body>
 		<canvas id="c"></canvas>
-		<script type="importmap">
-        {
-            "imports": {
-                "three": "./three",
-                "three/addons/": "./different/path/to/examples/jsm/",
-            }
-        }
-		</script>
+		<script  type="importmap">{
+			"imports": {
+				"three": "https://threejs.org/build/three.module.js"
+			}
+		}</script>
 		<script type="module" src="./main.js"></script>
 		
 	</body>
