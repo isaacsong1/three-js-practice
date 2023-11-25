@@ -1,3 +1,7 @@
+// This file shows all the basic objects that are included in three js.
+// Next  idea: mess around with camera perspective and shapes to create a 3D environment OR an idea for collin's website. See what shapes look good blurred out.
+// Segment specific objects into folders. Separation of concerns. Bruno Simon's website shows how to separate things well
+
 import * as THREE from 'three';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 import { ParametricGeometry } from 'three/addons/geometries/ParametricGeometry.js';
